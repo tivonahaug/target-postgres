@@ -20,8 +20,8 @@ setup(
     py_modules=['target_postgres'],
     install_requires=[
         'arrow==0.15.5',
-        'psycopg2==2.8.5',
-        'singer-python==5.9.0'
+        'psycopg2==2.8.3',
+        'singer-python==5.8.0'
     ],
     setup_requires=[
         "pytest-runner"
